@@ -1,0 +1,138 @@
+/* Estilos gerais */
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../calculadora1.jpg);
+    background-size: cover;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color:#a82004;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    width: 49%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   
+    
+
+}
+.logo{
+   /* coloque essa logo no canto superior esquerdo  da página*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    width: 300px;
+   
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.centralize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(241, 233, 233);
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.solid {
+    background-color:#045d04;
+    color: white;
+    border: none;
+
+}
+
+.solid:hover {
+    background-color: lightblue;
+}
+
+.clear {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+
+}
+
+.clear:hover {
+    background-color: white;
+}
+
+/* Estilos para celular */
+@media (max-width: 480px) {
+    form {
+        width: 80%;
+    }
+    header {
+        background-color:#02ffc2;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        width: 235px;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+
+
+}
+
+
+ 
+  
